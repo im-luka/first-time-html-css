@@ -1,0 +1,115 @@
+.main{
+    margin: 0 auto;
+    font-family: Arial;
+    background-color: lightgray;
+    width: 850px;
+    height: 900px;
+}
+
+.main header{
+    color: rgb(230, 230, 230);
+    background-color: black;
+    position: relative;
+    top: -20px;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    padding-left: 13%;
+}
+
+.main header h4{
+    color: rgb(146, 146, 146);
+}
+
+.main .tijelo{
+    position: relative;
+    background-color: white;
+    top: 15px;
+    margin: 0 auto;
+    width: 630px;
+    height: 705px;
+}
+
+footer{
+    position: fixed;
+    color: rgb(146, 146, 146);
+    text-align: center;
+    background-color: black;
+    bottom: 0px;
+    width: 850px;
+}
+
+.prvi{
+    position: relative;
+    left: 40px;
+    right: 40px;
+    top: 30px;
+    width: 550px;
+    height: 200px;
+    background-color: black;
+}
+
+#slika{
+    height: 215px;
+    width: 550px;
+}
+
+.sad1{
+    position: relative;
+    width: 220px;
+    top: 40px;
+    left: 40px;
+}
+
+.sad2{
+    position: absolute;
+    left: 320px;
+    top: 240px;
+    width: 220px;
+}
+
+.drugi{
+    position: relative;
+    top: 90px;
+    height: 180px;
+    width: 550px;
+    left: 40px;
+}
+
+.slika2{
+    height: 180px;
+    width: 330px;
+}
+
+.nav{
+    position: relative;
+    left: 350px;
+    bottom: 150px;
+}
+
+ul{
+    position: relative;
+    right: 20px;
+    bottom: 10px;
+}
+
+li{
+    padding: 2px;
+    list-style-image: url("kruzic.png");
+}
+
+a{
+    background-color: black;
+    color: rgb(173, 173, 173);
+    position: relative;
+    top: 20px;
+    padding: 11px 45px;
+    text-decoration: none;
+}
+
+#link1{
+    border-radius: 30px;
+}
+
+#link2{
+    background-image: linear-gradient(to right, black, rgb(180, 180, 180));
+}
