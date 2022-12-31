@@ -1,0 +1,142 @@
+body{
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+nav{
+    width: 100%;
+    background-color: rgb(34, 34, 34);
+}
+
+ul{
+    list-style-type: none;
+    display: inline-block;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+li{
+    float: right;
+    width: 12%;
+}
+
+a{
+    display: block;
+    text-align: center;
+    text-decoration: none;
+    padding: 15px;
+    color: white;
+}
+
+header{
+    background-image: url('img/home-banner.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding-top: 100px;
+    padding-bottom: 147px;
+    text-align: center;
+    color: white;
+}
+
+header form{
+    padding-top: 50px;
+}
+header form input{
+    padding: 12px 50px;
+    border: none;
+}
+
+.prvi{
+    color: orange;
+}
+#tipka{
+    background-color: rgb(96, 188, 15);
+    color: white;
+}
+#tipka:hover{
+    transition: all 1.5s ease;
+    background-color: transparent;
+}
+
+aside{
+    width: 50%;
+    text-align: center;
+    margin: 0 auto;
+    margin-top: 100px;
+    margin-bottom: 50px;
+}
+
+main{
+    width: 75%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-bottom: 100px;
+}
+
+main div{
+    width: 31%;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    background-color: rgb(249, 250, 252);
+    margin: 5px;
+}
+main div:hover{
+    transition: ease-in-out 0.5s;
+    box-shadow: 5px 5px 10px gray;
+}
+
+section{
+    width: 100%;
+    margin: 0 auto;
+    background-color: rgb(249, 250, 252);
+}
+section div{
+    width: 50%;
+    text-align: center;
+    margin: 0 auto;
+    padding-top: 80px;
+    padding-bottom: 25px;
+}
+
+iframe{
+    padding-bottom: 50px;
+}
+
+footer{
+    background-color: rgb(34, 34, 34);
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
+
+@media (max-width: 768px){
+    li{
+        clear: both;
+        width: 100%;
+    }
+    a{
+        text-align: left;
+        padding-left: 100px;
+    }
+    a:hover{
+        color: rgb(96, 188, 15);
+    }
+    main{
+        flex-direction: column;
+    }
+    main div{
+        margin: 0 auto;
+        margin-bottom: 15px;
+        padding: 15px 40px;
+        width: 50%;
+    }
+
+    header div h1{
+        width: 55%;
+        margin: 0 auto;
+    }
+}
