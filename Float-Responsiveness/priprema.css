@@ -1,0 +1,455 @@
+@media (max-width: 698px){
+    body{
+        background-color: #3775E4;
+        color: white;
+    }
+
+    main{
+        max-width: 100%;
+        margin: 0 auto;
+    }
+
+    .naslov{
+        height: 100%;
+        width: 90%;
+        padding: 3%;
+        margin: 0 auto;
+        border: 2px solid white;
+    } img{
+        float: right;
+        height: 17%;
+        width: 17%;
+        padding-right: 5%;
+    }
+
+    .sadrzaj{
+        height: 100%;
+        width: 100%;
+        margin-bottom: 3%;
+    }
+
+    .s{
+        height: 80%;
+        width: 80%;
+        margin: 0 auto;
+        padding: 4%;
+        border: 2px solid white;
+    }
+
+    .s1, .s2{
+        width: 38%;
+        float: left;
+        margin: 1%;
+    }
+
+    .s3, .s4{
+        width: 38%;
+        float: left;
+        margin: 1%;
+    }
+
+    #slika1{
+        float: left;
+        padding-bottom: 5%;
+        padding-right: 50%;
+        width: 130px;
+        height: 90px;
+    }
+
+    .dodatak{
+        font-style: italic;
+        height: 30%;
+        margin-bottom: 3%;
+    }
+
+    .slike{
+        width: 100%;
+    } #slika2{
+        float: left;
+        width: 45%;
+        height: 300px;
+        margin-left: 1%;
+    } #slika3{
+        float: left;
+        width: 44%;
+        height: 300px;
+    }
+
+    .n{
+        clear: both;
+    }
+
+    .linkovi{
+        width: 100%;
+        margin: 10% auto;
+    }.link1{
+        border: 2px solid white;
+        float: left;
+        width: 45%;
+        text-align: center;
+        margin-right: 2%;
+        padding: 5% 0;
+    }.link2{
+        float: left;
+        border: 2px solid white;
+        width: 45%;
+        text-align: center;
+        padding: 7% 0;
+        margin-right: 2%;
+    }.link3{
+        float: left;
+        border: 2px solid white;
+        text-align: center;
+        padding: 1% 0;
+        width: 45%;
+    }
+
+    footer{
+        margin-top: 3%;
+        text-align: center;
+    }
+}
+
+@media screen and (min-width: 699px) and (max-width: 799px){
+    body{
+        background-color: #774DF6 ;
+        color: white;
+    }
+
+    main{
+        max-width: 100%;
+        margin: 0 auto;
+    }
+
+    .naslov{
+        height: 100%;
+        width: 90%;
+        padding: 3%;
+        margin: 0 auto;
+        border: 2px solid white;
+    } img{
+        float: right;
+        height: 15%;
+        width: 15%;
+        padding-right: 5%;
+    }
+
+    .sadrzaj{
+        height: 100%;
+        width: 100%;
+        margin-bottom: 3%;
+    }
+
+    .s{
+        height: 80%;
+        width: 80%;
+        margin: 0 auto;
+        padding: 4%;
+        border: 2px solid white;
+    }
+
+    .s1, .s2{
+        width: 38%;
+        float: left;
+        margin: 1%;
+    }
+
+    .s3, .s4{
+        width: 38%;
+        float: left;
+        margin: 1%;
+    }
+
+    #slika1{
+        float: left;
+        padding-bottom: 5%;
+        padding-right: 60%;
+        width: 130px;
+        height: 90px;
+    }
+
+    .dodatak{
+        font-style: italic;
+        height: 30%;
+        margin-bottom: 3%;
+    }
+
+    .slike{
+        width: 100%;
+    } #slika2{
+        float: left;
+        width: 45%;
+        height: 300px;
+        margin-left: 1%;
+    } #slika3{
+        float: left;
+        width: 44%;
+        height: 300px;
+    }
+
+    .n{
+        clear: both;
+    }
+
+    .linkovi{
+        width: 100%;
+        margin: 10% auto;
+    }.link1{
+        border: 2px solid white;
+        float: left;
+        width: 45%;
+        text-align: center;
+        margin-right: 2%;
+        padding: 5% 0;
+    }.link2{
+        float: left;
+        border: 2px solid white;
+        width: 45%;
+        text-align: center;
+        padding: 7% 0;
+        margin-right: 2%;
+    }.link3{
+        float: left;
+        border: 2px solid white;
+        text-align: center;
+        padding: 1% 0;
+        width: 45%;
+    }
+
+    footer{
+        margin-top: 3%;
+        text-align: center;
+    }
+}
+
+@media (min-width: 800px) and (max-width: 999px){
+    body{
+        background-color: #5FA565;
+        color: white;
+    }
+
+    main{
+        width: 100%;
+    }
+
+    .naslov{
+        height: 100%;
+        width: 40%;
+        padding: 3%;
+        margin: 0 auto;
+        border: 2px solid white;
+    } img{
+        float: left;
+        height: 22%;
+        width: 22%;
+        padding-right: 5%;
+    }
+
+    .sadrzaj{
+        height: 100%;
+        width: 100%;
+        margin-bottom: 3%;
+    }
+
+    .s{
+        height: 80%;
+        width: 80%;
+        margin: 0 auto;
+        padding: 4%;
+        border: 2px solid white;
+    }
+
+    .left{
+        width: 50%;
+        float: left;
+    }
+    .right{
+        width: 50%;
+        float: left;
+    }
+
+    .s1, .s2{
+        margin-right: 2%;
+        margin-top: 4%;
+    }
+
+    .s3, .s4{
+        margin-left: 2%;
+        margin-top: 4%;
+    }
+
+    #slika1{
+        float: right;
+        width: 130px;
+        height: 90px;
+    }
+
+    .dodatak{
+        font-style: italic;
+        height: 30%;
+        margin-bottom: 3%;
+    }
+
+    .slike{
+        width: 100%;
+    } #slika2{
+        float: left;
+        width: 45%;
+        height: 300px;
+    } #slika3{
+        float: left;
+        width: 45%;
+        height: 300px;
+    }
+
+    .n{
+        clear: both;
+    }
+
+    .linkovi{
+        width: 100%;
+        margin: 10% auto;
+    }.link1{
+        border: 2px solid white;
+        float: left;
+        width: 30%;
+        text-align: center;
+        margin-right: 2%;
+        padding: 3% 0;
+    }.link2{
+        float: left;
+        border: 2px solid white;
+        width: 30%;
+        text-align: center;
+        padding: 5% 0;
+        margin-right: 2%;
+    }.link3{
+        float: left;
+        border: 2px solid white;
+        text-align: center;
+        padding: 1% 0;
+        width: 30%;
+    }
+
+    footer{
+        margin-top: 3%;
+        text-align: center;
+    }
+}
+
+@media (min-width: 1000px){
+    body{
+        background-color: #5FA565;
+        color: white;
+        margin: 50px;
+    }
+
+    main{
+        max-width: 1000px;
+        margin: 0 auto;
+    }
+
+    .naslov{
+        height: 100%;
+        width: 40%;
+        padding: 3%;
+        margin: 0 auto;
+        border: 2px solid white;
+    } img{
+        float: left;
+        height: 22%;
+        width: 22%;
+        padding-right: 5%;
+    }
+
+    .sadrzaj{
+        height: 100%;
+        width: 100%;
+        margin-bottom: 3%;
+    }
+
+    .s{
+        height: 80%;
+        width: 80%;
+        margin: 0 auto;
+        padding: 4%;
+        border: 2px solid white;
+    }
+
+    .left{
+        width: 50%;
+        float: left;
+    }
+    .right{
+        width: 50%;
+        float: left;
+    }
+
+    .s1, .s2{
+        margin-right: 2%;
+        margin-top: 4%;
+    }
+
+    .s3, .s4{
+        margin-left: 2%;
+        margin-top: 4%;
+    }
+
+    #slika1{
+        float: right;
+        width: 130px;
+        height: 90px;
+    }
+
+    .dodatak{
+        font-style: italic;
+        height: 30%;
+        margin-bottom: 3%;
+    }
+
+    .slike{
+        width: 100%;
+    } #slika2{
+        float: left;
+        width: 45%;
+        height: 300px;
+    } #slika3{
+        float: left;
+        width: 45%;
+        height: 300px;
+    }
+
+    .n{
+        clear: both;
+    }
+
+    .linkovi{
+        width: 100%;
+        margin: 10% auto;
+    }.link1{
+        border: 2px solid white;
+        float: left;
+        width: 30%;
+        text-align: center;
+        margin-right: 2%;
+        padding: 3% 0;
+    }.link2{
+        float: left;
+        border: 2px solid white;
+        width: 30%;
+        text-align: center;
+        padding: 5% 0;
+        margin-right: 2%;
+    }.link3{
+        float: left;
+        border: 2px solid white;
+        text-align: center;
+        padding: 1% 0;
+        width: 30%;
+    }
+
+    footer{
+        margin-top: 3%;
+        text-align: center;
+    }
+}
