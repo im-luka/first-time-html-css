@@ -1,0 +1,148 @@
+body{
+    width: 100%;
+    margin: 0 auto;
+}
+
+header{
+    width: 100%;
+    background-color: #fdfadc;
+}
+
+main{
+    width: 50%;
+    margin: 0 auto;
+}
+
+header ul{
+    list-style-type: none;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    display: inline-block;
+}
+
+header li{
+    float: left;
+    width: 20%;
+}
+
+header a{
+    text-decoration: none;
+    text-align: center;
+    color: #009688;
+    font-size: 145%;
+    display: block;
+    padding: 10px;
+}
+
+header a:hover{
+    color: #9c27b0;
+    background-color: #ffffff;
+    background-image: url('img/ice-cream.jpg');
+    background-repeat: no-repeat;
+    background-size: 35px;
+    border-bottom: 2px solid #9c27b0;
+}
+
+div img{
+    float: left;
+    width: 100%;
+}
+
+section article{
+    float: left;
+    width: 70%;
+}
+
+article h2{
+    color: rgb(172, 171, 171);
+}
+
+section img{
+    width: 245px;
+    padding: 1%;
+}
+
+section aside{
+    float: right;
+    width: 25%;
+}
+
+section aside ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+section aside li{
+    margin-bottom: 30px;
+}
+
+section aside a{
+    text-decoration: none;
+    display: block;
+    text-align: center;
+    border-top: 2px solid yellow;
+    border-left: 2px solid yellow;
+    border-right: 5px double yellow;
+    border-bottom: 5px double yellow;
+    color: green;
+    padding: 3% 10%;
+    width: 80%;
+}
+
+section aside a:hover{
+    border-top: 5px double yellow;
+    border-left: 5px double yellow;
+    border-right: 2px solid yellow;
+    border-bottom: 2px solid yellow;
+}
+
+aside h2{
+    color: rgb(172, 171, 171);
+}
+
+footer{
+    margin-top: 4%;
+    clear: both;
+    text-align: center;
+    padding: 1%;
+    background-color: #9ce3e9;
+    color: white;
+}
+
+@media (max-width: 700px){
+    header li{
+        clear: both;
+        width: 100%;
+        background-color: #009688;
+    }
+
+    header li a{
+        color: white;
+    }
+
+    section article{
+        width: 100%;
+    }
+
+    section aside{
+        clear: both;
+        width: 100%;
+    }
+
+    section aside a{
+        border-top: 2px solid #8643a8;
+        border-left: 2px solid #8643a8;
+        border-right: 5px double #8643a8;
+        border-bottom: 5px double #8643a8;
+        color: red;
+    }
+
+    section aside a:hover{
+        border-top: 5px double #8643a8;
+        border-left: 5px double #8643a8;
+        border-right: 2px solid #8643a8;
+        border-bottom: 2px solid #8643a8;
+    }
+}
