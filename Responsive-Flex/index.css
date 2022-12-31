@@ -1,0 +1,171 @@
+body{
+    max-width: 1200px;
+    margin: 0 auto;
+    font-family: 'Montserrat', sans-serif;;
+}
+
+nav{
+    width: 100%;
+    background-color: #0091ea;
+}
+
+ul{
+    list-style-type: none;
+    display: inline-block;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+li{
+    float: left;
+    width: 15%;
+}
+
+a{
+    display: block;
+    text-align: center;
+    text-decoration: none;
+    padding: 15px;
+    color: white;
+}
+nav a:hover{
+    background-color: white;
+    color: #0091ea;
+    margin-top: 10px;
+    margin-bottom: 4px;
+}
+
+header{
+    background-image: url('img/slider-img-2.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding-top: 10%;
+    padding-bottom: 147px;
+    text-align: center;
+    color: white;
+    display: flex;
+}
+header div{
+    width: 70%;
+    margin: 0 auto;
+}
+header h1{
+    text-transform: uppercase;
+}
+header form input{
+    padding: 12px 50px;
+    background-color: #0091ea;
+    color: white;
+    border-radius: 10px;
+    border: none;
+}
+input:hover{
+    transition: all 1.25s linear;
+    background-color: transparent;
+    color: #0091ea;
+    border: 1px solid #0091ea;
+}
+
+
+article{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    width: 35%;
+    margin: 0 auto;
+    flex-wrap: wrap;
+}
+
+main{
+    width: 90%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+    flex: wrap;
+}
+main div{
+    width: 100%;
+    align-items: center;
+}
+main figure img{
+    width: 100%;
+}
+
+aside{
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 50px;
+}
+aside div{
+    background-color: #f5f5f5;
+    color: #0091ea;
+}
+aside div p{
+    width: 70%;
+    padding-left: 40px;
+    padding-top: 20px;
+}
+
+.fa-circle{
+    color: #0091ea;
+}
+
+section{
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    padding-top: 120px;
+    margin-bottom: 50px;
+    width: 70%;
+    margin: 0 auto;
+}
+section div{
+    padding: 20px;
+}
+
+footer{
+    width: 100%;
+    text-align: center;
+    background-color: #004f7f;
+    color: white;
+    padding: 20px 0px;
+}
+
+@media (max-width: 567px){
+
+    nav{
+        width: 100%;
+    }
+    a{
+        text-align: left;
+        padding-left: 20px;
+    }
+    a:hover{
+        width: 80%;
+    }
+    li{
+        clear: both;
+        width: 100%;
+    }
+    main{
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+    }
+    main div{
+        width: 100%;
+    }
+    aside{
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+    }
+    aside iframe{
+        width: 100%;
+    }
+    section{
+        display: flex;
+        flex-direction: column;
+    }
+}
